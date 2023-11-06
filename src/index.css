@@ -1,4 +1,5 @@
 body {
+  background-color: #0d1f23;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -10,4 +11,33 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+h1,.pri{
+  color:#afb3b7;
+}
+.inp{
+  border-radius: 25px;
+  height: 30px;
+  width:191px;
+}
+.pri{
+  background-color: #69818d;
+  height: 30px;
+
+}
+.lii{
+color:#5a636a;
+font-size: xx-large;
+list-style: none;
+}
+
+.delete:hover{
+  background-color:rgb(198, 17, 17) ;
+
+}
+.edit:hover{
+background-color: blue;
+}
+.done:hover{
+background-color: rgb(82, 137, 0);
 }
